@@ -69,3 +69,29 @@ const bIgNumm = BigInt(0o377777777777777777);
 console.log(bIgNumm)
 console.log([typeof BigInt("1")]);
 console.log([typeof Object(1n) === "object"]);
+
+// String data types
+const sT = "my name is rupesh";
+const sT1 = 'my name is rupesh';
+const sT2 = `my name is rupesh`;
+console.log([sT, sT1, sT2]);
+let SyT = "Rupesh";
+console.log(["Rupesh"[1]]);
+
+// symbol data type
+
+const sym = Symbol("Rupesh");
+console.log([typeof sym]);
+
+
+// console.log([typeof sym]);
+const stm = Object(sym);
+console.log([typeof stm]);
+
+
+// null ji welcome to js worlds
+
+let nLL = null;
+let nL = 9;
+console.table([nLL, nL]);
+console.timeStamp([nL, nLL]);
