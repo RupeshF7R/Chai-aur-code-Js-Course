@@ -34,12 +34,21 @@ let negValue = -value
 
 // assigenment operator
 
-let gameCounter = 100;
-++gameCounter;
-console.log([gameCounter]);
+// let gameCounter = 100;
+// ++gameCounter;
+// console.log([gameCounter]);
 
 // prefix means first starting things +-*/%
 // postfix means end closing things +-*/%
+
+
+// extra 🤣🤣
+
+let aPlus = 8n;
+
+console.log([Number(aPlus)+2]);
+
+
 
 
 
