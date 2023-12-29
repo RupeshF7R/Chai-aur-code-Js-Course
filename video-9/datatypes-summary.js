@@ -32,3 +32,40 @@ const bigNumber = 999999999888888888888444444n;
 
 // console.log([bigNumber])
 
+// referance data types nonprimitive Datatypes
+
+/*
+
+array []
+objects {} 
+Functions 
+*/
+
+const heros = ["Shree Ram", "Hanuman", "Krishna", "Shiv Sankar",];
+let myObj = {
+    name: "Rupesh",
+    age: "19",
+    Gender: "male",
+    Life: "Single",
+    Goal: "Hacker"
+
+};
+let myObj2 = {
+    name: "KUldeep",
+    age: "15",
+    Gender: "male",
+    Life: "Not Report",
+    Goal: "Gamer"
+
+};
+
+const myIdea = function () {
+
+    console.log("HEllo world");
+
+
+
+}
+// console.table([heros]);
+// console.table([myObj, myObj2])
+console.log(myIdea);
