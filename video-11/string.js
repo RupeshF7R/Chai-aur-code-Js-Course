@@ -6,7 +6,7 @@ const repoCount = 14;
 // outdated syntax
 // console.log(name +  repoCount + " Repo");
 
-//  morden syntax
+//  modern syntax
 // ${ Function name }
 // console.log([`Hello my Name is ${name.name} My Repo On GitHub ${repoCount}`]);
 
@@ -31,7 +31,7 @@ const gameNamE = new String("Rupesh-vitaltag");
 // indexof show the number of the string
 // console.log(gameNamE.indexOf('s'));
 
-// string - substract //slice using .substring(0,6)
+// string - subtract //slice using .substring(0,6)
 
 // const newString = gameNamE.substring(7, 12);
 
@@ -48,7 +48,7 @@ const newName2 = newName.substring(7, 13);
 console.log(newName2);*/
 
 
-// .Trim() Remove the Ennoing Space
+// .Trim() Remove the Extra Space
 
 const userName = "    Rupesh    ";
 // console.log(userName);
